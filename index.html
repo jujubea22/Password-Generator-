@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		Generate a Password
+	</title>
+</head>
+
+<body style = "text-align:center;">
+	
+	<h1 style = "color: rgb(236, 11, 180)">
+		Password Generator
+	</h1>
+	
+	<h3>
+		Click on the button to generate NEW password.
+	</h3>
+	
+	<button onclick = "gfg_Run()">
+		*Click Here!*
+	</button>
+	
+	<p id = "pword"></p>
+	
+	<script>
+		var el_down = document.getElementById("pword");
+		
+		function gfg_Run() {
+			el_down.innerHTML =
+				Math.random().toString(12).slice(2) +
+				Math.random().toString(12)
+					.toUpperCase().slice(2);
+			}
+	</script>
+</body>
+
+</html>	
