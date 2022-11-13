@@ -1,0 +1,48 @@
+html
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  background-color: rgb(18, 147, 176);
+  align-content: center;
+  justify-content: center;
+  display: block;
+  font-family: 'Century Gothic', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headings{
+  text-align: center;
+}
+
+.headings p{
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.boxShape{
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.inputbox{
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 5px;
+}
+button{
+  background-color: rgb(64, 244, 10);
+  color: rgb(255, 147, 221);
+  border-radius: 6px;
+  border-width: 0px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+button:hover{
+  cursor: pointer;
+  
+}
